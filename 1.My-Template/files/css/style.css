@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/*--------------------Header Container---------------------*/
+#header-container{
+    background-image: url("../img/cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 657px;    
+}
+/*-------------------Navigation Container---------------------*/
+.navigation-bar{
+    background: black;
+    height: 65px;
+    width: auto;
+}
+/*-------------------LOGO Container---------------------*/
+.logo{
+    height: auto;
+    padding: 8px 70px;
+    text-decoration: underline;
+    width: 50px;   
+}
+/*-------------------Unorder-List Container---------------------*/
+.navigation-bar ul{
+    float: right;
+    margin-right: 20px;    
+}
+.navigation-bar ul li{
+    display: inline-block;
+    line-height: 65px;
+    list-style: none;
+    margin: 0 8px;   
+}
+.navigation-bar ul li a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: .4s;
+}
+/*-------------------Unorder-List Container'Pseudo Class---------------------*/
+.navigation-bar ul li a.active, ul li a:hover{
+    background: rgb(252, 172, 25);
+    border-radius: 10px 0px 10px 0px;
+    padding: 5.5px;
+    
+}
+/*-------------------Cover Title Container---------------------*/
+#header-container .cover-title{
+    background: black;
+    border-radius: 35px 0px 35px 0px;
+    font-family: 'Roboto', sans-serif;
+    top: 56%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+    position: absolute;
+    padding: 25px;
+    padding-top: 20px;
+    user-select: none;   
+}
+/*-------------------Title Over Cover Title---------------------*/
+.cover-title h1{
+    color: white;
+    font-size: 53px;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+    width: 500px;   
+}
+
+
+/*-------------------Models Container---------------------*/
+#models-container {
+    background-image: url("../img/bg-avanta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid rgb(20, 184, 61) ;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;    
+}
+
+#models-container h2{
+    color: rgb(248, 168, 19) ;
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    height: 10px;
+    line-height: 25px;
+    padding:50px;
+    text-decoration: underline black;  
+}
+.models-section{
+    color: rgb(189, 189, 189);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;  
+    position: absolute;
+    top: 94%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding-top: 850px;
+    text-align: justify;
+    width: 400px;    
+}
+.models-section img{
+    height: 23px;
+    padding-bottom: 15px;
+    width: 200px;   
+}
+
+/*-------------------Models Container2---------------------*/
+.model-huracan {
+    background-image: url("../img/bg-hura.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid rgb(255, 51, 0) ;
+    border-bottom-right-radius: 100px;
+    display: flex;  
+    flex-wrap: wrap; 
+    height: 500px;   
+}
+.can-section{
+    color:rgb(189, 189, 189);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px; 
+    position: absolute;
+    top: 170%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding-top: 850px;
+    text-align: justify;
+    width: 400px;       
+}
+.can-section img{
+    height: 23px;
+    padding-bottom: 10px;
+    width: 200px;   
+}
+/*-------------------Models Container3---------------------*/
+.model-urus {
+    background-image: url("../img/bg-urus.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;  
+    flex-wrap: wrap;
+    height: 500px;   
+}
+.rus-section{
+    color: rgb(189, 189, 189);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;  
+    position: absolute;
+    top: 245%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding-top: 850px;
+    text-align: justify;  
+    width: 400px;    
+}
+.rus-section img{
+    padding-bottom: 10px;
+    width: 200px;   
+}
+/*-----------demo-container----------*/
+#demo-container{
+    background:linear-gradient(180deg, #eeeded 50%, #ffffff 50%);
+    height: 500px;
+    position: relative;    
+}
+.btn  {
+    background-image: url("../img/demobg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 10px 18px rgb(148, 148, 148);
+    height: 400px;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;       
+}
+.btn-text{
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-text{
+    background: black;
+    border: 2px solid rgb(248, 168, 19);
+    border-radius: 30px 10px;
+    color:white;
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center; 
+    text-decoration: none;    
+}
+.btn-text:hover{
+    opacity: 0.9;
+    text-decoration: underline rgb(20, 184, 61) ;   
+}
+/*-----------price-container----------*/
+#price-container{
+    background: rgb(243, 243, 243);
+    
+
+}
+#price-container h1{
+    background: white;
+    font-family: 'Black Ops One', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px ;
+    text-align: right;   
+}
+.row{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;    
+}
+.col{
+    margin: 20px;
+    
+}
+.col img{
+    width: 100%;
+}
+.col h4{
+    float: right;
+    
+}
+.col h3 h4 p{
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    display: flex;
+    padding: 20px;
+}
+.col{
+    margin: 20px;
+    
+}
+.col img{
+    width: 100%;
+}
+.col h4{
+    float: right;
+    
+}
+.row .col:hover{
+    transform: scale(1.1);
+}
+/*-------------------Contact-container--------------------*/
+#contact-container{
+    align-items: center;
+    background-image: url("../img/contactbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.form-container h1{
+    color: rgb(248, 168, 19) ;
+    font-family: 'Black Ops One', cursive;
+    font-size: 53px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 30px;
+    text-decoration: underline white;   
+}
+
+.form-text{
+    padding: 20px;
+    
+}
+.form-text input{
+    border: none;
+    height: 30px;
+    padding: 5px;
+    width: 315px;   
+}
+.form-text textarea{
+    border: none;
+    padding: 10px;
+    resize: none;
+    width: 305px;   
+}
+.form-btn{
+    border: none;
+    background: white;
+    border-radius: 15px;
+    color:rgb(248, 168, 19);
+    cursor: pointer;
+    float: right;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    margin: 5px;
+    padding: 12px 15px;  
+}
+.form-btn:hover{
+    background: rgb(248, 168, 19);
+    color: black;
+}
+/*---------------------------partners-container-------------------------*/
+#partner-container{
+    height: 400px;
+    
+    
+}
+#partner-container h1{
+    color:  rgb(148, 148, 148);
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.partners1{
+    display: flex;
+    justify-content: center;   
+}
+.partners1 img{
+    float: right;
+    padding: 15px;   
+}
+.partners2{
+    display: flex;
+    justify-content: center;   
+}
+.partners2 img{
+    float: right;
+    padding: 15px;   
+}
+/*---------------------------footer-container---------------------------*/
+.footer-container{
+    background: black;
+    color: white ;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 11px;
+    padding: 35px;
+    text-align: center;
+    
+}
